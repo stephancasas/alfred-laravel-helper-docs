@@ -1,0 +1,16 @@
+{
+    "name": "alfred-laravel-helper-docs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build:collections": "node scripts/aggregate.js collections",
+        "build:helpers": "node scripts/aggregate.js helpers"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "puppeteer": "^15.5.0"
+    }
+}
